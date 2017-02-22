@@ -1,0 +1,10 @@
+/.idea/
+/node_modules/
+/data/*
+!/data/companyNames.json
+/sd-*/
+/app/const/batchNames.json
+/app/const/workFlows.json
+/app/const/companyNames.json
+.DS_Store
+yarn.lock

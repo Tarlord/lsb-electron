@@ -1,0 +1,25 @@
+{
+  "name": "lsb-electron",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "lsb-electron",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-0": "*",
+    "babel-register": "*",
+    "fixed-data-table": "^0.6.3",
+    "lodash": "^4.17.4",
+    "react": "*",
+    "react-dom": "*",
+    "superagent": "^3.4.4"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "*"
+  },
+  "author": "Tarlord <evgeniy.tarl@gmail.com>"
+}

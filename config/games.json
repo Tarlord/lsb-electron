@@ -1,0 +1,26 @@
+{
+  "url": "/games/top",
+  "url_params": [
+    {
+      "key": "limit",
+      "value": 100
+    }
+  ],
+  "schema": [
+    {
+      "label": "Game",
+      "key": "name",
+      "path": "game.name"
+    },
+    {
+      "label": "Viewers",
+      "value": "viewers",
+      "path": "viewers"
+    },
+    {
+      "label": "Channels count",
+      "value": "channels",
+      "path": "channels"
+    }
+  ]
+}

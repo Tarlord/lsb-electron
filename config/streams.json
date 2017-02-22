@@ -1,0 +1,42 @@
+{
+  "url": "/streams",
+  "url_params": [
+    {
+      "key": "game",
+      "useParams": true
+    },
+    {
+      "key": "limit",
+      "value": 50
+    }
+  ],
+  "headers": [
+    {
+      "label": "Channel",
+      "key": "name",
+      "path": "channel.name",
+      "base": "TBA"
+    },
+    {
+      "label": "Game",
+      "key": "game",
+      "path": "channel.game"
+    },
+    {
+      "label": "Viewers",
+      "key": "viewers",
+      "path": "viewers"
+    },
+    {
+      "label": "Lang",
+      "key": "broadcaster_language",
+      "path": "channel.broadcaster_language"
+    },
+    {
+      "label": "Description",
+      "key": "status",
+      "path": "channel.status",
+      "slice": 30
+    }
+  ]
+}
